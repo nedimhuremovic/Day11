@@ -1,5 +1,5 @@
 // Create a temps array here
-    var avgTemp = [
+    var temps = [
         [31,32,19,37],
         [29,27,55,36],
         [17,27,42,46],
@@ -22,5 +22,5 @@ function myArrayFunction(arr) {
   // Only change code above this line
   return averageDayTemp;
 }
-console.log(myArrayFunction(avgTemp)); // Change this line
+console.log(myArrayFunction(temps)); // Change this line
 module.exports = myArrayFunction;
